@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * space_tab - verify if the string is only space and tab
- * @str: the input to check
+ * check_spaces_tabs - checks if a string is only spaces and tabs
+ * @str: user input buffer
  *
  * Return: 0 or 1
 */
-int space_tab(char *str)
+int check_spaces_tabs(char *str)
 {
 	while (*str)
 	{

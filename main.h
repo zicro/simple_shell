@@ -12,11 +12,11 @@
 
 extern char **environ;
 
-int cmd_exists(char **args);
+int command_exists(char **args);
 int execute_command(char **args, char *userInput_buf);
 int handle_builtins(char **args, char *userInput_buf, int exit_num);
 char **tokenize_input(char *userInput_buf);
-int space_tab(char *str);
+int check_spaces_tabs(char *str);
 ssize_t read_user_input(char **userInput_buf, size_t *buf_size);
 int execute_forked_command(char **args, char *userInput_buf);
 int validate_command(char **args, char *userInput_buf, int exit_num);

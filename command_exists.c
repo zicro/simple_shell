@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * cmd_exists - check the existance of the command
- * @args: the array args
+ * command_exists - check if command exits before forking
+ * @args: argument array
  *
- * Return: 0 if none, 1 if ok
+ * Return: 0 if command doesnt exist in PATH, 1 otherwise
  */
-int cmd_exists(char **args)
+int command_exists(char **args)
 {
 	char *path, *dir;
 	char path_search[4096];
