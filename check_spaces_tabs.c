@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * check_spaces_tabs - checks if a string is only spaces and tabs
+ * check_spaces_tabs - a fct checks if a string is only spaces and tabs
  * @str: user input buffer
  *
  * Return: 0 or 1
