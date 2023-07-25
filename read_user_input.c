@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * read_user_input - Reads the input from user
+ * read_user_input - a fct Reads the input from user
  * @userInput_buf: hold input from user
  * @buf_size: the buffer size
  *
