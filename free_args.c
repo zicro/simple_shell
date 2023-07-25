@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * free_args - memory free for command args
+ * free_args - a  fct free the memory for command args
  * @args: the command args
  *
  * Return: void
