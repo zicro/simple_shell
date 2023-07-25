@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*lib used to creat a our own simple_shell*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -11,7 +12,7 @@
 #include <signal.h>
 
 extern char **environ;
-
+/*fonction used*/
 int command_exists(char **args);
 int execute_command(char **args, char *userInput_buf);
 int handle_builtins(char **args, char *userInput_buf, int exit_num);
