@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * execute_forked_command - Fork the process and execute the command
+ * execute_forked_command - aFork the process and execute the command
  * @args: the args commands
  * @userInput_buf: buffer of the inputs
  *
