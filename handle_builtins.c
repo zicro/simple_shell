@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * handle_builtins - the built-in handles
+ * handle_builtins - the built-in handles fonction
  * @args: the args
  * @userInput_buf: the user buffer inputs
  * @exit_num: status to exit
