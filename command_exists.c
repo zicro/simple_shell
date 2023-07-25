@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * command_exists - checks if command exits before forking
+ * command_exists - achecks if command exits before forking
  * @args: argument array
  *
  * Return: 0 if command doesnt exist in PATH, 1 otherwise
