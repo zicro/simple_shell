@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * execute_command - execute the command and verify errors
+ * execute_command - a fct execute the command and verify errors
  * @args: the args array
  * @userInput_buf: the user input buff
  *
